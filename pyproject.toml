@@ -7,7 +7,13 @@ authors = [
     { name = "Kornog-XLR", email = "nicolas.stephan2024@gmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "numpy>=2.5.5",
+    "pandas>=3.1.1",
+    "scikit-learn>=1.9.1",
+    "xgboost>=3.4.1",
+    "xlrd>=2.0.2",
+]
 
 [project.scripts]
 credit-risk = "credit_risk:main"
